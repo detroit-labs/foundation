@@ -126,7 +126,7 @@
           e.stopImmediatePropagation();
 
           if (target[0].nodeName === 'A' && target.parent().hasClass('has-dropdown')) {
-            e.preventDefault();
+            //e.preventDefault();
           }
 
           if (li.hasClass('hover')) {
